@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <style>
+        .musicplayer {
+            width: 400px;
+            height: 500px;
+            border: 5px double blue;
+            background-color: black;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 25px auto;
+            border-radius: 25px;
+
+        }
+
+        ul li {
+            font-family: cursive;
+            list-style-type: none;
+            margin: 8px;
+            cursor: pointer;
+
+        }
+
+        .fa-solid {
+            color: red;
+
+        }
+
+        span {
+            width: 100px;
+            ;
+        }
+
+        .play {
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+
+        input {
+            width: 260px;
+        }
+
+        .play-icons {
+            font-size: 40px;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="musicplayer">
+        <nav>
+            <h1 style="background-color: blue;text-align: center;margin-top:1px;border-radius:8px;">Music Player</h1>
+            <p style="margin-left:8px;">Your Favourite <span style="color:red;"><em>Music</span></em></span></p>
+            <ul>
+                <li>Radhey Radhey </li>
+                <li>Saiyaan</li>
+                <li>Aarambh hai </li>
+                <li>Tere Vaste</li>
+                <li>Ye Dil Hai Muskil</li>
+                <li>Mazaa</li>
+                <li>Jannat</li>
+                <li>Aankhe</li>
+                <li>Zara Zara
+                <li>
+                <li>Mein Royaan</li>
+            </ul>
+        </nav>
+        <footer style="height:95px;background-color:blue;margin-bottom:0;">
+            <div class="play">
+                <p>5:30</p> <input type="range" name="" id="">
+            </div>
+            <div class="play-icons">
+                <i class="fa-regular fa-circle-play"></i>
+            </div>
+
+        </footer>
+    </div>
+
+</body>
+<script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+
+</html>

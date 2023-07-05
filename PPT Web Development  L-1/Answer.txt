@@ -1,0 +1,89 @@
+Q1:<!DOCTYPE html> is tag of html? if not what is it and why do 
+    we use it?
+
+Ans:<!DOCTYPE html> is not a tag but doctype declaration that specifies
+    the version of HTML being used in the documnet and helps browsers
+    render the page correctly.It is placed at the very begingig HTML
+    documnet ,before the <html> tag.It informs about the markup version 
+    and documnet type being used in the document.
+
+Q2:Explain Semantic tags in html? And why do we need it?
+
+   Ans:Some Examples of Semantic tags are :
+   <header> <nav> <article> <section> <footer> <aside> <main>
+   and many more.
+
+   Semantic tags were intoduced in HTML5 to encourage the use of descriptive
+   elemants rater than relying on div and span tags.
+
+   Semantic tages provide meaning and structure to the content of web page.
+
+   uses of Semantic tags are important:
+
+   1:It improves accessibility by providing meaningfull information to 
+     technology.
+   2:It improves the SEO (search engine optimization) by providing 
+     meaningfull structure ,search enging understands the content 
+     and give it a ranking.
+   3:It improves the redability and maintainability.
+   4:Some Semantic tags such as form ,input,button etc have default 
+     behaviour and styling.
+
+Q3:Differentiate between HTML Tags and Elements?
+
+  Ans:In HTML the tags are which have opening <> and </>closing tag.
+       for example:<p></P>here paragraph has opening <p> and closing</p>
+       tags.and if there is any content inside the opening <> and closing</>
+       tags it becomes html element for example <p>hello world!</p>.
+
+Q6:what are the advantage of HTML5 over its previous versions?
+
+   Ans:Advatages of HTML over it's previous version are:
+   1.Introuced Semantics elements like  <header> ,<nav>, <footer>, <article>,<section> 
+     etc.
+   2.HTLM5 introduced multimedia support <audio> ,<video>.
+   3.Introduction of canvas and WebGL for dynamic  redndering of graphics,animations
+     and interactive visualization using javascript.
+   4.Crosss-platform compatibility.
+   5.offline support with the help of Application Cache(AppCache) feature.
+   6.It improved forms with various features like date,time,email,number.
+   7.HTML5 support for obtaining the geological location throught the Geolocation API,
+
+Q8:What is different between <figure> tag and image <img> tag?
+
+   Ans:<img> tag is used to render images on the web browser it has properties like width,
+   height and it's attributes are alt if images doesn't render on the webpage than ther text
+   written in the alt attribute will be displayed and it has src attribut in this it contain 
+   url of the image to be displayed.
+
+   <figure> tag is the self contained tage it grounp the multmedia.
+     for example:
+     <figure>
+     <img src="" alt=""/>
+     <figcaption>My image</figcaption>
+     </figure>
+     here the figure contained the image and it has figcaption element 
+     inside it so figure will group image and figcaption element and it
+     introduced in HTML5.
+
+Q9:What is difference between html tag and attribute and give example of some 
+   global attributes.
+
+   Ans:HTML tags has opening and closing tag <> </> examples of tags are <p></p>
+   ,<nav></nav>,<div></div>,<span></span> these are tags and it give stucture to 
+   the document.
+
+   Attribute:attribute gives addition behaviour of the html elements.it is placed
+   inside opening tag of an element example of attibutes is:
+   <img src="" alt="">
+   here the attibutes of img tag are src,and alt it is kept insid the img tag .
+
+   Global attibutes are:these attributes can be used in any html tag/
+   Example of Global attibutes are:
+   *class
+   *id
+   *style
+   *title
+   *lang
+   *data-*
+   *aria-*
